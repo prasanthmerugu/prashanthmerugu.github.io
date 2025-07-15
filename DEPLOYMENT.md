@@ -16,7 +16,7 @@ git push origin main
 2. Click on **Settings** tab
 3. Scroll down to **Pages** section
 4. Under **Source**, select **Deploy from a branch**
-5. Choose **main** branch and **/docs** folder
+5. Choose **main** branch and **/ (root)** folder
 6. Click **Save**
 
 ### 3. Configure Custom Domain (Optional)
@@ -32,11 +32,10 @@ If using a custom domain, configure your DNS:
 
 ## 📁 File Structure
 ```
-prashanthmerugu.io/
-├── docs/                    # GitHub Pages source folder
-│   ├── index.html          # Main website file
-│   ├── styles.css          # Styles and animations
-│   └── script.js           # JavaScript functionality
+prashanthmerugu.github.io/
+├── index.html              # Main website file
+├── styles.css              # Styles and animations
+├── script.js               # JavaScript functionality
 ├── README.md               # Repository documentation
 ├── DEPLOYMENT.md           # This file
 └── resume.md               # Resume content
@@ -45,12 +44,12 @@ prashanthmerugu.io/
 ## 🔧 Customization
 
 ### Update Content
-- Edit `docs/index.html` for main content
-- Modify `docs/styles.css` for styling
-- Update `docs/script.js` for functionality
+- Edit `index.html` for main content
+- Modify `styles.css` for styling
+- Update `script.js` for functionality
 
 ### Add Images
-1. Place images in `docs/` folder
+1. Place images in the root folder
 2. Reference them in HTML: `<img src="image.jpg" alt="Description">`
 
 ### Update Meta Tags
@@ -63,7 +62,7 @@ Edit the `<head>` section in `index.html` for:
 ## 🌐 Domain Setup
 
 ### Option 1: GitHub Pages Domain
-- URL: `https://yourusername.github.io/prashanthmerugu.io`
+- URL: `https://prashanthmerugu.github.io`
 - No additional setup required
 
 ### Option 2: Custom Domain
@@ -112,7 +111,7 @@ Edit the `<head>` section in `index.html` for:
 **Styling issues:**
 - Clear browser cache
 - Check file paths in HTML
-- Verify CSS file is in docs/ folder
+- Verify CSS file is in the root folder
 
 ### Support
 - GitHub Pages documentation: https://pages.github.com/
@@ -131,6 +130,6 @@ Edit the `<head>` section in `index.html` for:
 
 ---
 
-**Your portfolio will be live at: https://prashanthmerugu.io**
+**Your portfolio will be live at: https://prashanthmerugu.github.io**
 
 *Last updated: January 2024* 

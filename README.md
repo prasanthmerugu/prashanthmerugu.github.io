@@ -23,11 +23,10 @@ Welcome to my professional portfolio website! This is a modern, responsive websi
 ## 📁 Project Structure
 
 ```
-prashanthmerugu.io/
-├── docs/                    # GitHub Pages deployment folder
-│   ├── index.html          # Main HTML file
-│   ├── styles.css          # CSS styles and animations
-│   └── script.js           # JavaScript functionality
+prashanthmerugu.github.io/
+├── index.html              # Main HTML file
+├── styles.css              # CSS styles and animations
+├── script.js               # JavaScript functionality
 ├── resume.md               # Resume content in markdown
 ├── README.md               # This file
 └── Merugu_Durga_Prasanth_Resume (3).pdf  # Original resume PDF
@@ -63,15 +62,15 @@ The website is fully responsive and optimized for:
 
 This website is configured for GitHub Pages deployment:
 
-1. **Source**: The `docs/` folder contains all the website files
-2. **Domain**: Configured for `prashanthmerugu.io` domain
+1. **Source**: All website files are in the root directory
+2. **Domain**: Configured for `prashanthmerugu.github.io` domain
 3. **HTTPS**: Automatically enabled by GitHub Pages
 4. **Custom Domain**: Ready for custom domain configuration
 
 ### To Deploy:
 1. Push changes to the main branch
-2. GitHub Pages will automatically build and deploy from the `docs/` folder
-3. The site will be available at `https://prashanthmerugu.io`
+2. GitHub Pages will automatically build and deploy from the root folder
+3. The site will be available at `https://prashanthmerugu.github.io`
 
 ## 📧 Contact Information
 
@@ -84,9 +83,8 @@ This website is configured for GitHub Pages deployment:
 
 ### Local Development
 1. Clone the repository
-2. Navigate to the `docs/` folder
-3. Open `index.html` in a web browser
-4. For live development, use a local server (e.g., `python -m http.server 8000`)
+2. Open `index.html` in a web browser
+3. For live development, use a local server (e.g., `python -m http.server 8000`)
 
 ### Customization
 - **Colors**: Update CSS custom properties in `styles.css`
