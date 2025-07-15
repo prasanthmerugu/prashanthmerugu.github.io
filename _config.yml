@@ -1,0 +1,50 @@
+# Jekyll configuration for GitHub Pages
+# This ensures the site is served from the root directory
+
+# Site settings
+title: "Durga Prasanth Merugu - Data Engineer"
+description: "Professional portfolio showcasing data engineering skills and experience"
+author: "Durga Prasanth Merugu"
+email: "merugudurgaprasanth@gmail.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - resume.md
+  - "*.pdf"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# URLs
+url: "https://prasanthmerugu.github.io"
+baseurl: ""
+
+# Social media
+social:
+  name: "Durga Prasanth Merugu"
+  links:
+    - "https://linkedin.com/in/Merugu-prasanth/"
+    - "https://github.com/prasanthmerugu" 
