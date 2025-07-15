@@ -17,6 +17,9 @@ exclude:
   - README.md
   - DEPLOYMENT.md
   - resume.md
+
+# Include PDF files
+include:
   - "*.pdf"
 
 # Collections
